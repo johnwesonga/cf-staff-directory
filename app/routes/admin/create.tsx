@@ -20,7 +20,7 @@ export const POST = createRoute(async (c) => {
                 },
             });
             console.log(`File uploaded successfully: ${key}`);
-            imageUrl = `https://pub-8d936184779047cc96686a631f318fce.r2.dev/${key}`;
+            imageUrl = `https://pub-756f3873a2724257bda0e8a3994134e3.r2.dev/${key}`;
         }
 
         const employeeData: Employee = {
